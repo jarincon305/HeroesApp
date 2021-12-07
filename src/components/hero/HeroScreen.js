@@ -16,6 +16,7 @@ export const HeroScreen = () => {
   }
 
   const {
+    id,
     superHero,
     publisher,
     alter_ego,
@@ -23,7 +24,7 @@ export const HeroScreen = () => {
     characters
   } = hero;
 
-  const imagePath = "/";
+  const imagePath = `/assets/${id}.jpg`;
 
   return (
     <div className="row mt-5">
